@@ -8,5 +8,4 @@ To be able to build a WMS service using unoGIS package we have to:
 - Modify the Index view referring to the controller
 - Once compiled the application we click on the link that we put on the View
 - Modify the URL http:/..../WMS rewriting ?request=GetCapabilities at the end of the URL
-- Se nos descargará un archivo con las capas de los ejemplos que hayamos escogido
 - It will download a file with the layers of the examples we choose
