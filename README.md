@@ -3,7 +3,6 @@ This application is an example of how to build a WMS service using unoGIS packag
 To be able to build a WMS service using unoGIS package we have to:
 - Create a new project (Application Web ASP.NET (version: .NET Framework 4.6.2) MVC) 
 - Manage the NuGet package unoGIS.Services
-- Remove Npgsql and Npgsql.EntityFrameworkCore.PostgreSQL references, also to remove their "dll" files in the folder "bin"
 - Add a new controller (Controllers - Add - New element - Controller de ASP.NET)
 - Modify the Index view referring to the controller
 - Once compiled the application we click on the link that we put on the View
