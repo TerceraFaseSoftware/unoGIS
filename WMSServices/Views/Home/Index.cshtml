@@ -1,0 +1,9 @@
+﻿@{
+    ViewBag.Title = "Home page";
+    var enlace = "http://" + Request.Url.Host + Url.Content("~/WMS");
+}
+<div>
+    <h1> WMS Service using unoGIS package</h1>
+    <p> This application is an example of how to build a WMS service using unoGIS package, to try this service copy the following URL and paste it on your client:  </p>
+    <a href='@Url.Content("~/WMS")'> @enlace </a>
+</div>
